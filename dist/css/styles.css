@@ -287,7 +287,8 @@ Grocery List
   transition: var(--transition);
 }
 .edit-btn,
-.delete-btn {
+.delete-btn,
+.valid-btn {
   background: transparent;
   border-color: transparent;
   cursor: pointer;
@@ -307,6 +308,7 @@ Grocery List
 .delete-btn:hover {
   color: var(--clr-red-dark);
 }
+
 .clear-btn {
   text-transform: capitalize;
   width: 10rem;
